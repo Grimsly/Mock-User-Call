@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
+        self.title = "Dashboard";
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true;
         // Do any additional setup after loading the view.

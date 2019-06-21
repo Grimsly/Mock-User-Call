@@ -17,6 +17,8 @@
 		DC171BF922BA3F1F00E95058 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171BF822BA3F1F00E95058 /* UserViewController.swift */; };
 		DC171BFB22BA428B00E95058 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171BFA22BA428B00E95058 /* UserTableViewCell.swift */; };
 		DC171BFD22BA4E2600E95058 /* SaveChangesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171BFC22BA4E2600E95058 /* SaveChangesTableViewCell.swift */; };
+		DC834A1322BD01A0003D4C88 /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = DC834A1222BD01A0003D4C88 /* Test.json */; };
+		DC834A1522BD15D5003D4C88 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC834A1422BD15D5003D4C88 /* CustomTextFields.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		DC171BF822BA3F1F00E95058 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		DC171BFA22BA428B00E95058 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		DC171BFC22BA4E2600E95058 /* SaveChangesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveChangesTableViewCell.swift; sourceTree = "<group>"; };
+		DC834A1222BD01A0003D4C88 /* Test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Test.json; sourceTree = "<group>"; };
+		DC834A1422BD15D5003D4C88 /* CustomTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				DC171BD422BA329D00E95058 /* Info.plist */,
 				DC171BFA22BA428B00E95058 /* UserTableViewCell.swift */,
 				DC171BFC22BA4E2600E95058 /* SaveChangesTableViewCell.swift */,
+				DC834A1422BD15D5003D4C88 /* CustomTextFields.swift */,
+				DC834A1222BD01A0003D4C88 /* Test.json */,
 			);
 			path = VogApp;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC171BD322BA329D00E95058 /* LaunchScreen.storyboard in Resources */,
+				DC834A1322BD01A0003D4C88 /* Test.json in Resources */,
 				DC171BD022BA329D00E95058 /* Assets.xcassets in Resources */,
 				DC171BCE22BA329C00E95058 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC171BFD22BA4E2600E95058 /* SaveChangesTableViewCell.swift in Sources */,
+				DC834A1522BD15D5003D4C88 /* CustomTextFields.swift in Sources */,
 				DC171BFB22BA428B00E95058 /* UserTableViewCell.swift in Sources */,
 				DC171BCB22BA329C00E95058 /* MainViewController.swift in Sources */,
 				DC171BF922BA3F1F00E95058 /* UserViewController.swift in Sources */,

@@ -11,7 +11,7 @@ import UIKit
 class UserTableViewCell: UITableViewCell {
 
     @IBOutlet weak var subject: UILabel!
-    @IBOutlet weak var content: UILabel!
+    @IBOutlet weak var content: CustomTextFields!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
